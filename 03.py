@@ -1,9 +1,0 @@
-'''
-seek偏移量
-'''
-b=open("4.txt","wb+")
-b.write("春天来了".encode())
-b.flush()
-b.seek(-9,2)
-a=b.read()
-print(a.decode())
